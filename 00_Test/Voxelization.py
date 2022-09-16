@@ -36,3 +36,5 @@ if __name__ == '__main__':
     pcd.colors = o3d.utility.Vector3dVector(np.random.uniform(0, 1, size=(N, 3)))
     o3d.visualization.draw_geometries([pcd])
 
+    print(f'test git')
+
